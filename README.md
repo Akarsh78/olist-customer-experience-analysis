@@ -1,4 +1,5 @@
 # Olist E-Commerce Sales & Customer Experience Analysis
+![Olist Dashboard](screenshot/olist-dashboard.png)
 
 ## About the Project
 
