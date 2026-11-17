@@ -57,6 +57,8 @@ olist-customer-experience-analysis/
 │
 ├── powerbi/
 │   └── Olist_Ecommerce_Sales_Customer_Experience_Analysis.pbix
+├── screenshot/
+│   └── olist-dashboard.png
 │
 └── README.md
 ```
