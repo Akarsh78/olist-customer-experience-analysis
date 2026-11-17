@@ -1,57 +1,75 @@
-# olist-customer-experience-analysis
-E-Commerce Customer Experience and Sales Analysis using Excel, MySQL and Power BI.
-# Olist Customer Experience & Sales Analysis
+# Olist E-Commerce Sales & Customer Experience Analysis
 
-## Project Description
-End to End E-commerce Data Analytics Project using the Brazilian Olist dataset to understand sales performance, customer behavior, delivery performance, payment method and customer review scores.
+## About the Project
 
-## Technologies
-- MySQL
+This project is based on the Brazilian Olist e-commerce dataset. The main objective was to explore order and customer data, understand sales performance, and identify patterns related to payments, product categories, reviews, and delivery.
+
+I used MySQL for querying and analyzing the datasets and Power BI to build a dashboard that brings the important metrics together.
+
+## Tools Used
+
+- MySQL Workbench
 - SQL
-- Microsoft Power BI (DashBoard under construction)
-- Excel
+- Microsoft Power BI
+- Microsoft Excel
 
-## Datasets
-The project makes use of 9 CSV datasets from the Olist Brazilian E-commerce datasets.
+## Work Performed
 
-## Business Analysis
-- Sales and Revenue Analysis
-- Monthly Order Analysis
-- Customer Purchase Behavior
-- Repeat Customer Analysis
-- Seller Delivery Analysis
-- Payment Method Analysis
-- Customer Review Score Analysis
-- State wise Revenue Analysis
-- Product category Performance
+**SQL Analysis**
+- Explored and analyzed nine CSV datasets.
+- Worked with joins to combine information from different tables.
+- Created 15 SQL queries for business analysis.
+- Used aggregate functions, subqueries, date functions, and conditional statements.
+- Analyzed revenue, orders, customers, products, payments, and delivery performance.
 
-## Key Insights
-- Total number of orders: 99,441
-- Total number of delivered orders: 96,478
-- Total payment revenue: R$16,008,872.12
-- Average order value: R$160.99
-- Average delivery time: 12.5 days
-- Average late delivery: 8.11%
-- Average review score: 4.09/5
-- Percentage of repeat customers: Approximately 3%
+**Power BI Dashboard**
+- Connected MySQL database with Power BI.
+- Created KPI cards for sales, orders, customers, and delivery metrics.
+- Built charts for monthly sales, order status, payment methods, product categories, and customer reviews.
+- Added date filtering to explore sales over different periods.
+- Worked with table relationships and visual formatting.
 
-## Repository Structure
+## Key Findings
+
+| Business Metric | Result |
+|---|---:|
+| Total Orders | 99,441 |
+| Delivered Orders | 96,478 |
+| Total Payment Revenue | R$16.01M |
+| Average Order Value | R$160.99 |
+| Average Delivery Time | 12.5 Days |
+| Late Delivered Orders | 7,826 |
+| Average Review Score | 4.09 / 5 |
+| Repeat Customer Rate | 3.12% |
+
+## Project Structure
+
 ```text
 olist-customer-experience-analysis/
+│
 ├── data/
 │   └── raw/
+│       └── Olist CSV datasets
+│
 ├── sql/
 │   └── olist_analysis.sql
+│
+├── powerbi/
+│   └── Olist_Ecommerce_Sales_Customer_Experience_Analysis.pbix
+│
 └── README.md
 ```
 
-## SQL Analysis
-SQL analysis can be found in the 'sql' directory.
+## Challenges & Learning
 
-## Project Progress
-SQL analysis and dataset upload done. Power BI dashBoard under construction.
+One of the challenging parts was understanding how different tables were connected and making sure the relationships worked correctly in Power BI.
+
+While working on this project, I got practical experience with SQL queries, relational data, business metrics, and dashboard development. I also learned how to turn query results into visual reports that are easier to understand.
 
 ## Author
-Akarsh Srivastava
+
+**Akarsh Srivastava**
 
 GitHub: https://github.com/Akarsh78
+
+Project Repository: https://github.com/Akarsh78/olist-customer-experience-analysis
