@@ -50,15 +50,23 @@ olist-customer-experience-analysis/
 │
 ├── data/
 │   └── raw/
-│       └── Olist CSV datasets
+│       ├── olist_customers_dataset.csv
+│       ├── olist_geolocation_dataset.csv
+│       ├── olist_order_items_dataset.csv
+│       ├── olist_order_payments_dataset.csv
+│       ├── olist_order_reviews_dataset.csv
+│       ├── olist_orders_dataset.csv
+│       ├── olist_products_dataset.csv
+│       ├── olist_sellers_dataset.csv
+│       └── product_category_name_translation.csv
+│
+├── powerbi/
+│
+├── screenshot/
+│   └── olist-dashboard.png
 │
 ├── sql/
 │   └── olist_analysis.sql
-│
-├── powerbi/
-│   └── Olist_Ecommerce_Sales_Customer_Experience_Analysis.pbix
-├── screenshot/
-│   └── olist-dashboard.png
 │
 └── README.md
 ```
